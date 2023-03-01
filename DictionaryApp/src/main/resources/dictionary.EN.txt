@@ -1,0 +1,4 @@
+break=First meaning of break|Second meaning of break
+bread=First meaning|Second meaning
+helicopter=First meaning|Second meaning
+pen=First meaning|Second meaning

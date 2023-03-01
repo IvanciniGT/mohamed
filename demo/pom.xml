@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.0.2</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <groupId>com.training</groupId>
+    <artifactId>consolidation</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <packaging>pom</packaging> <!-- This means this project doesn't have code -->
+
+    <name>Mi demo application</name>
+    <description>This application is going to manage users and task lists</description>
+
+    <properties>
+        <java.version>17</java.version>
+    </properties>
+
+    <modules>
+        <module>user-model</module>
+        <module>user-rest-api</module>
+        <module>app</module>
+    </modules>
+
+
+</project>
